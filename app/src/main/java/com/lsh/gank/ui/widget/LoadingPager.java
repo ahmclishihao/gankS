@@ -25,6 +25,10 @@ public class LoadingPager extends FrameLayout {
         super(context, attrs, defStyleAttr);
         init();
     }
+    public LoadingPager(Context context) {
+        super(context);
+        init();
+    }
 
     private void init() {
         if (mLoadingView == null) {
