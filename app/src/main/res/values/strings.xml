@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">干货集中营</string>
+    <string name="about_statement_01">作者：潜水的沙</string>
+    <string name="about_statement_02">你好，欢迎来到干货集中营\n\n这里每日分享 妹子图 和 技术干货\n\n还有供大家中午休息的休闲视频\n\n你可以按住喜欢的条目并保存他\n\n我还提供了一些小工具来帮助你阅读干货\n\n希望你能喜欢</string>
+    <string name="gankio_url">http://gank.io</string>
+    <string name="blog_url">http://blog.csdn.net/ahmclishihao</string>
+</resources>

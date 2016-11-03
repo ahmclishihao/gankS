@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lsh.gank.ui.widget.SuperScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="?attr/cardBackground"
+            app:cardElevation="1dp"
+            >
+
+            <EditText
+                android:id="@+id/et_source"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@null"
+                android:drawableBottom="@null"
+                android:gravity="left|top"
+                android:hint="输入单词或句子"
+                android:textColor="?attr/textColorSecondary"
+                android:textColorHint="?attr/textColorSecondary"/>
+        </android.support.v7.widget.CardView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/divide_line"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="快来查查看！"
+                android:textColor="?attr/textColorSecondary"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/btn_clear"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/btn_start"
+                android:background="@drawable/selector_rectangle_btn"
+                android:text="清空"
+                android:textColor="@color/white"/>
+            <Button
+                android:id="@+id/btn_copy"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/btn_clear"
+                android:background="@drawable/selector_rectangle_btn"
+                android:text="复制"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/btn_start"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/selector_rectangle_btn"
+                android:text="翻译"
+                android:textColor="@color/white"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/divide_line"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="?attr/cardBackground"
+            app:cardElevation="1dp">
+
+            <TextView
+                android:id="@+id/tv_translate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="?attr/textColorSecondary"
+                android:textSize="16sp"
+                android:visibility="gone"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</com.lsh.gank.ui.widget.SuperScrollView>

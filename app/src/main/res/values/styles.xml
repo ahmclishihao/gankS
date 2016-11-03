@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#2196f3</item>
+        <item name="colorPrimaryDark">#1976d2</item>
+        <item name="colorAccent">#00bcd4</item>
+        <item name="bottomIndicatorColorTint">@color/color_indicator_bottom</item>
+        <item name="textColorSecondary">@color/gray</item>
+        <item name="textColorPrimary">@color/black</item>
+        <item name="textColorTitle">@color/black</item>
+        <item name="textColorAlert">@color/colorPrimary</item>
+        <item name="cardBackground">@color/white</item>
+        <item name="contentBackground">@color/whitesmoke</item>
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="imageBackgroundTint">#00000000</item>
+        <item name="android:windowIsTranslucent">false</item><!--X5设置防止视频上屏透明-->
+    </style>
+
+    <style name="AppTheme_black" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#263238</item>
+        <item name="colorPrimaryDark">#1E282D</item>
+        <item name="colorAccent">#37474F</item>
+        <item name="bottomIndicatorColorTint">@color/color_indicator_bottom</item>
+        <item name="textColorSecondary">#999EA0</item>
+        <item name="textColorPrimary">#E6E8E9</item>
+        <item name="textColorTitle">#E6E8E9</item>
+        <item name="textColorAlert">@color/colorPrimary</item>
+        <item name="cardBackground">#37474F</item>
+        <item name="contentBackground">#1E282D</item>
+        <item name="tabIndicatorColor">#263238</item>
+        <item name="imageBackgroundTint">#33000000</item>
+        <item name="android:windowIsTranslucent">false</item><!--X5设置防止视频上屏透明-->
+    </style>
+
+    <style name="AppTheme_red" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorPrimaryDark">#a44336</item>
+        <item name="colorAccent">#FFa336</item>
+        <item name="bottomIndicatorColorTint">@color/color_indicator_bottom_red</item>
+        <item name="textColorSecondary">@color/gray</item>
+        <item name="textColorPrimary">@color/black</item>
+        <item name="textColorTitle">@color/black</item>
+        <item name="textColorAlert">#FFa336</item>
+        <item name="cardBackground">@color/white</item>
+        <item name="contentBackground">@color/whitesmoke</item>
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="imageBackgroundTint">#00000000</item>
+        <item name="android:windowIsTranslucent">false</item><!--X5设置防止视频上屏透明-->
+    </style>
+
+    <style name="AppTheme_green" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#8BC34A</item>
+        <item name="colorPrimaryDark">#8B934A</item>
+        <item name="colorAccent">#8Bd38A</item>
+        <item name="bottomIndicatorColorTint">@color/color_indicator_bottom_green</item>
+        <item name="textColorSecondary">@color/gray</item>
+        <item name="textColorPrimary">@color/black</item>
+        <item name="textColorTitle">@color/black</item>
+        <item name="textColorAlert">#8Bd38A</item>
+        <item name="cardBackground">@color/white</item>
+        <item name="contentBackground">@color/whitesmoke</item>
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="imageBackgroundTint">#00000000</item>
+        <item name="android:windowIsTranslucent">false</item><!--X5设置防止视频上屏透明-->
+    </style>
+
+    <style name="AppTheme_purple" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#9C57d0</item>
+        <item name="colorPrimaryDark">#9C27B0</item>
+        <item name="colorAccent">#9C77d0</item>
+        <item name="bottomIndicatorColorTint">@color/color_indicator_bottom_purple</item>
+        <item name="textColorSecondary">@color/gray</item>
+        <item name="textColorPrimary">@color/black</item>
+        <item name="textColorTitle">@color/black</item>
+        <item name="textColorAlert">#9C77d0</item>
+        <item name="cardBackground">@color/white</item>
+        <item name="contentBackground">@color/whitesmoke</item>
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="imageBackgroundTint">#00000000</item>
+        <item name="android:windowIsTranslucent">false</item><!--X5设置防止视频上屏透明-->
+    </style>
+
+</resources>
