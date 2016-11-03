@@ -32,7 +32,9 @@
 
 7、下拉刷新使用的是系统的SwipeRefreshLayout，上拉加载是以添加装饰的方式放在在Recycle的Adapter中。
 
-8、翻译小工具，存在只是为了不让这个应用这么单一使用的接口是有道翻译的api，[戳我拿api](http://fanyi.youdao.com/openapi?path=data-mode)。
+8、翻译小工具，存在只是为了不让这个应用太单一。使用的接口是有道翻译的api，[戳我拿api](http://fanyi.youdao.com/openapi?path=data-mode)。
 
 9、整个app使用MVP模式加上对recycleview的抽取，让逻辑神马的变得非常简单，根本没有初学时那么复杂了！很棒啊！
 
+#其他
+我的CSDN blog：[潜水的沙](http://blog.csdn.net/ahmclishihao)
