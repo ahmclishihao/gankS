@@ -26,7 +26,7 @@
 
 4、WebView方面还在学习，使用的是android自带的WebView。
 
-5、整个界面风格比较简约，提供主题切换，使用android的CoordinatorLayout结合ToolBar和FloatingActionButton，主题切换采用的是淡进淡出的效果。
+5、整个界面风格比较简约，使用android的CoordinatorLayout结合ToolBar和FloatingActionButton做动态布局，主题切换采用的是淡进淡出的效果。
 
 6、使用RecycleView+CardView解析接口中获取的json数据并展示。
 
