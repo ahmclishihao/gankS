@@ -7,13 +7,13 @@
 <img src="./screenshot/home.png" width="25%"/>
 <img src="./screenshot/home_02.png" width="25%"/>
 <img src="./screenshot/all.png" width="25%"/>
-<img src="./screenshot/pics.png" width="25%"/>
 
+<img src="./screenshot/pics.png" width="25%"/>
 <img src="./screenshot/pics_02.png" width="25%"/>
 <img src="./screenshot/translate.png" width="25%"/>
+
 <img src="./screenshot/setting.png" width="25%"/>
 <img src="./screenshot/theme.png" width="25%"/>
-
 <img src="./screenshot/web.png" width="25%"/>
 
 # 简单介绍
