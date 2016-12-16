@@ -1,4 +1,4 @@
-# gankioDemo
+# gankS
 这是一个采用MVP+Retrofit+RxJava的实战项目！
 使用了有道翻译的Api以及GankIo的Api，非常感谢开源人对初学者的帮助！
 
@@ -36,5 +36,26 @@
 
 9、整个app使用MVP模式加上对recycleview的抽取，让逻辑神马的变得非常简单，根本没有初学时那么复杂了！很棒啊！
 
-#其他
+# 其他
 我的CSDN blog：[潜水的沙](http://blog.csdn.net/ahmclishihao)
+
+# License
+
+```
+/*
+ * Copyright (C) 2016 ahmclishihao
+ *
+ * GankS is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * GankS is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with GankS.  If not, see <http://www.gnu.org/licenses/>.
+ */
+ ```
