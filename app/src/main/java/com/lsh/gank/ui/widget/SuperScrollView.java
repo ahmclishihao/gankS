@@ -14,6 +14,16 @@ import android.widget.ScrollView;
 public class SuperScrollView extends ScrollView {
 
     private View mChild;
+    
+    public SuperScrollView(Context context) {
+        super(context);
+        init();
+    }
+
+    public SuperScrollView(Context context, AttributeSet attrs) {
+        super(context,attrs);
+        init();
+    }
 
     public SuperScrollView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
